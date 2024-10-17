@@ -1,15 +1,11 @@
-@base <https://spyroslomis.github.io/UGentCoursePlayground/> .
+@base <https://spyroslomis.github.io/UGentCoursePlayground/me.ttl> .
 @prefix schema: <https://schema.org/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<#me> a schema:Person ;
-schema:name "Spyros Lomis" ;
-
-foaf:knows <https://pieterheyvaert.com/#me> ;
-foaf:knows <https://thib.goelff.be/me.ttl#me> ;
-foaf:knows <https://lurivasm.github.io/rdf-data/me.ttl> .
-
-<currently-working> foaf:currentProject <https://pietercolpaert.be/teaching/lds/#2024-2025> .
-<currentProject-Satus> foaf:status "Catching Up..."^^xsd:string .
-
+<https://spyroslomis.github.io/UGentCoursePlayground/me.ttl#me> a schema:Person ;
+	schema:name "Spyros Lomis" ;
+	schema:currentlyWorkingOn <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
+	foaf:knows <https://pieterheyvaert.com/#me> ;
+	foaf:knows <https://janvanrensbergen.github.io/#me> ;
+	foaf:knows <https://lurivasm.github.io/rdf-data/me.ttl> .
