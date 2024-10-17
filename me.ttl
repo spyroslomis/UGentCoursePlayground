@@ -6,10 +6,10 @@
 <me> a schema:Person ;
 schema:name "Spyros Lomis" ;
 
+foaf:knows <https://pieterheyvaert.com/#me> ,
+	<https://thib.goelff.be/me.ttl#me> ,
+	<https://lurivasm.github.io/rdf-data/me.ttl> .
+
 <currently-working> foaf:currentProject <https://pietercolpaert.be/teaching/lds/#2024-2025> .
 <currentProject-Satus> foaf:status "Catching Up..."^^xsd:string .
-
-foaf:knows <https://pieterheyvaert.com/#me> ;
-	<https://thib.goelff.be/me.ttl#me> ;
-	<https://lurivasm.github.io/rdf-data/me.ttl> .
 
