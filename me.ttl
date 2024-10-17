@@ -1,9 +1,9 @@
-@base <https://spyroslomis.github.io/UGentCoursePlayground/me.ttl> .
+@base <https://spyroslomis.github.io/UGentCoursePlayground/> .
 @prefix schema: <https://schema.org/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<https://spyroslomis.github.io/UGentCoursePlayground/me.ttl#me> a schema:Person ;
+<#me> a schema:Person ;
 	schema:name "Spyros Lomis" ;
 	schema:currentlyWorkingOn <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
 	foaf:knows <https://pieterheyvaert.com/#me> ;
