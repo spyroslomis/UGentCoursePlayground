@@ -1,0 +1,12 @@
+@base <https://spyroslomis.github.io/UGentCoursePlayground/> .
+@prefix schema: <https://schema.org/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<me> a schema:Person ;
+schema:name "Spyros Lomis" ;
+foaf:knows <https://pieterheyvaert.com/#me> .
+
+<currently-working> foaf:currentProject <https://pietercolpaert.be/teaching/lds/#2024-2025> .
+<currentProject-Satus> foaf:status "Catching Up..."^^xsd:string .
+
