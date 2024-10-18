@@ -5,6 +5,7 @@
 
 <#me> a schema:Person ;
 	schema:name "Spyros Lomis" ;
+    schema:jobTitle "Enterprise Architect" ;
 	schema:attendee <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
 	foaf:knows <https://pieterheyvaert.com/#me> ;
 	foaf:knows <https://janvanrensbergen.github.io/#me> ;
